@@ -10,7 +10,7 @@ endif
 
 " ================ General Config ====================
 
-set number                      "Line numbers are good
+set number relativenumber       "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
@@ -115,3 +115,7 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+colorscheme gruvbox
+set colorcolumn=81,101,121
+let g:NERDTreeWinSize=50
+
